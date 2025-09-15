@@ -6,7 +6,7 @@ function changeText() {
     // 해당 요소의 내용을 변경
     element.textContent = 'oiiiaioiiaioiiiai'
     img.src = 'oiia2.gif'
-    myAudio.currentTime = 2
+    myAudio.currentTime = 0.1
     myAudio.play();
     setTimeout(function () {
         element.textContent = 'oiiai';
@@ -16,6 +16,7 @@ function changeText() {
     
 
 }
+
 
 
 
