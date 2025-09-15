@@ -12,10 +12,11 @@ function changeText() {
         element.textContent = 'oiiai';
         img.src = 'oiia1.webp'
         myAudio.pause();
-    },1500)
+    },2000)
     
 
 }
+
 
 
 
