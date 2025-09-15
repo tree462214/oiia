@@ -5,12 +5,13 @@ function changeText() {
     const myAudio = document.getElementById('myAudio')
     // 해당 요소의 내용을 변경
     element.textContent = 'oiiiaioiiaioiiiai'
-    img.src = 'data/oiia2.gif'
+    img.src = 'oiia2.gif'
     myAudio.play();
     setTimeout(function () {
         element.textContent = 'oiiai';
-        img.src = 'data/oiia1.webp'
+        img.src = 'oiia1.webp'
         myAudio.pause();
     },1500)
     
+
 }
