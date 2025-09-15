@@ -11,7 +11,9 @@ function changeText() {
         element.textContent = 'oiiai';
         img.src = 'oiia1.webp'
         myAudio.pause();
+        myAudio.currentTime = 0
     },1500)
     
 
 }
+
