@@ -6,16 +6,17 @@ function changeText() {
     // 해당 요소의 내용을 변경
     element.textContent = 'oiiiaioiiaioiiiai'
     img.src = 'oiia2.gif'
-    myAudio.currentTime = 1
+    myAudio.currentTime = 2
     myAudio.play();
     setTimeout(function () {
         element.textContent = 'oiiai';
         img.src = 'oiia1.webp'
         myAudio.pause();
-        myAudio.currentTime = 0
+        myAudio.currentTime = 2
     },1500)
     
 
 }
+
 
 
